@@ -1,0 +1,198 @@
+:root {
+  --link-color: #2271b1;
+  --link-active-color: #135e96;
+  --link-box-shadow: 0 0 0 0.25rem rgb(34 113 177 / 25%);
+}
+
+.post-type-qz-quiz div#wpfooter {
+  display: none;
+}
+
+.multiple-options > label {
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+
+.multiple-options > label input {
+  width: 80%;
+}
+
+#quiz-category label {
+  display: block;
+  margin: 6px 0 6px 5px;
+}
+
+#quiz-category {
+  height: 150px;
+  overflow-y: scroll;
+}
+
+#quiz-category label span {
+  margin-left: 8px;
+}
+
+#quiz-category::-webkit-scrollbar {
+  width: 3px;
+}
+
+#quiz-category::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#quiz-category::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
+
+.question-select {
+  width: 100%;
+}
+
+.conditions > label {
+  display: block;
+}
+
+.question-select,
+.conditions-select,
+.opt-select {
+  margin-bottom: 10px;
+}
+
+.question-select {
+  width: 100%;
+}
+
+#quizDetail .modal-dialog {
+  margin: auto !important;
+  height: max-content !important;
+  inset: 0;
+  position: absolute;
+}
+
+#quizDetail ul span {
+  font-size: 18px;
+  color: #17354d;
+  font-weight: 400;
+  margin-bottom: 0px !important;
+  display: block;
+}
+
+#quizDetail ul li {
+  outline: none;
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#quizDetail ul li:before {
+  content: "-";
+  margin-right: 10px;
+  margin-left: 2px;
+  font-weight: bold;
+}
+
+#quizDetail ul {
+  padding: 0;
+}
+
+#quizDetail .modal-content {
+  width: 700px !important;
+  /* overflow-y: scroll !important; */
+  height: 500px !important;
+}
+
+#quizDetail .modal-content > .modal-body {
+  overflow-y: scroll !important;
+  height: 500px !important;
+}
+
+/* width */
+#quizDetail .modal-content > .modal-body::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+#quizDetail .modal-content > .modal-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-bottom-right-radius: 10px;
+}
+
+/* Handle */
+#quizDetail .modal-content > .modal-body::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  cursor: pointer;
+}
+
+/* Handle on hover */
+#quizDetail .modal-content > .modal-body::-webkit-scrollbar-thumb:hover {
+  background: #979797;
+}
+
+.post-type-list label {
+  width: 100px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.post-type-list input[type="submit"] {
+  text-transform: capitalize;
+}
+
+#quiz-settings .shortcode h2 {
+  margin-bottom: 0;
+}
+
+#quiz-settings .shortcode p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.post-type-list > select {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.conditions > div > span {
+  text-transform: capitalize;
+}
+
+#quiz-entries_wrapper {
+  box-shadow: 0 1px 2px 2px rgb(0 0 0 / 10%);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.sub_user_name {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.view-detail {
+  color: var(--link-color);
+}
+
+.view-detail:focus {
+  outline: 0;
+  box-shadow: unset;
+}
+
+.view-detail:hover {
+  color: var(--link-active-color);
+}
+
+.active > .page-link,
+.page-link.active {
+  background-color: var(--link-color);
+  border-color: var(--link-color);
+}
+
+.page-link {
+  color: var(--link-color);
+}
+
+.page-link:focus {
+  box-shadow: var(--link-box-shadow);
+}
